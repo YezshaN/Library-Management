@@ -49,3 +49,4 @@ C:\Users\PC\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Loan.resour
 C:\Users\PC\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Member.resources
 C:\Users\PC\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Reservation.resources
 C:\Users\PC\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Transaction.resources
+C:\Users\PC\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Main.resources

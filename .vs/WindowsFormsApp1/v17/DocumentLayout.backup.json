@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|c:\\users\\pc\\source\\repos\\windowsformsapp1\\1dashboardfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|solutionrelative:1dashboardfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|c:\\users\\pc\\source\\repos\\windowsformsapp1\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|solutionrelative:transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|solutionrelative:booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|solutionrelative:staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|c:\\users\\pc\\source\\repos\\windowsformsapp1\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|solutionrelative:reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|c:\\users\\pc\\source\\repos\\windowsformsapp1\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|solutionrelative:member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|c:\\users\\pc\\source\\repos\\windowsformsapp1\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|c:\\users\\pc\\source\\repos\\windowsformsapp1\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|solutionrelative:booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|solutionrelative:loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Properties\\Resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|solutionrelative:Properties\\Resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\BooksForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|solutionrelative:BooksForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\StaffForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A22E6D-23DB-4449-90A8-AE228E45060A}|LibraryManagement.csproj|solutionrelative:StaffForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,47 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "1DashboardFrom.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\1DashboardFrom.cs",
-              "RelativeDocumentMoniker": "1DashboardFrom.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\1DashboardFrom.cs [Design]",
-              "RelativeToolTip": "1DashboardFrom.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T20:10:15.9Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Transaction.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Transaction.cs",
-              "RelativeDocumentMoniker": "Transaction.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Transaction.cs [Design]",
-              "RelativeToolTip": "Transaction.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T19:33:36.005Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Reservation.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Reservation.cs",
-              "RelativeDocumentMoniker": "Reservation.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Reservation.cs [Design]",
-              "RelativeToolTip": "Reservation.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T17:45:05.825Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BooksForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\BooksForm.cs",
               "RelativeDocumentMoniker": "BooksForm.cs",
@@ -94,32 +66,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StaffForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\StaffForm.cs",
-              "RelativeDocumentMoniker": "StaffForm.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\StaffForm.cs [Design]",
-              "RelativeToolTip": "StaffForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T01:10:33.393Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T05:03:00.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "Reservation.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Reservation.cs",
+              "RelativeDocumentMoniker": "Reservation.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Reservation.cs [Design]",
+              "RelativeToolTip": "Reservation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:45:05.825Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Loan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Loan.cs",
+              "RelativeDocumentMoniker": "Loan.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Loan.cs [Design]",
+              "RelativeToolTip": "Loan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T15:40:03.171Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Member.cs [Design]",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Member.cs",
               "RelativeDocumentMoniker": "Member.cs",
@@ -131,15 +115,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Loan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Loan.cs",
-              "RelativeDocumentMoniker": "Loan.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Loan.cs [Design]",
-              "RelativeToolTip": "Loan.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "StaffForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\StaffForm.cs",
+              "RelativeDocumentMoniker": "StaffForm.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\StaffForm.cs [Design]",
+              "RelativeToolTip": "StaffForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:40:03.171Z",
+              "WhenOpened": "2025-04-17T01:10:33.393Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Transaction.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Transaction.cs",
+              "RelativeDocumentMoniker": "Transaction.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Transaction.cs [Design]",
+              "RelativeToolTip": "Transaction.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:33:36.005Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-04-24T01:48:33.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BooksForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\BooksForm.Designer.cs",
+              "RelativeDocumentMoniker": "BooksForm.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\BooksForm.Designer.cs",
+              "RelativeToolTip": "BooksForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:18:57.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StaffForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\StaffForm.Designer.cs",
+              "RelativeDocumentMoniker": "StaffForm.Designer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WindowsFormsApp1\\StaffForm.Designer.cs",
+              "RelativeToolTip": "StaffForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:19:24.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }
