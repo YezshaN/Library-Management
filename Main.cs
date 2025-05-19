@@ -112,11 +112,6 @@ namespace LibraryManagement
 
         }
 
-        private void gridViewLoans_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void lbreserMN_Click(object sender, EventArgs e)
         {
 
