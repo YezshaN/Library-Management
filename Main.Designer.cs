@@ -30,6 +30,8 @@
         {
             tabs = new TabControl();
             tabPage1 = new TabPage();
+            btnLogout = new Button();
+            btnRefresh = new Button();
             panelReviews = new Panel();
             lbReviews = new Label();
             lbComment = new Label();
@@ -54,18 +56,13 @@
             lbTotal = new Label();
             monthCalendar1 = new MonthCalendar();
             tabPage2 = new TabPage();
+            btnBackBook = new Button();
             comboBox1 = new ComboBox();
             gridViewBooks = new DataGridView();
-            title = new DataGridViewTextBoxColumn();
-            author = new DataGridViewTextBoxColumn();
-            genre = new DataGridViewTextBoxColumn();
-            yearpub = new DataGridViewTextBoxColumn();
-            totalcop = new DataGridViewTextBoxColumn();
-            availcop = new DataGridViewTextBoxColumn();
-            edit = new DataGridViewButtonColumn();
-            delete = new DataGridViewButtonColumn();
             groupBoxBooks = new GroupBox();
-            btnClear = new Button();
+            btnClearBook = new Button();
+            btnDelB = new Button();
+            btnEditB = new Button();
             btnSave = new Button();
             txtTotal = new TextBox();
             lbTC = new Label();
@@ -79,103 +76,91 @@
             txtTitle = new TextBox();
             tabPage3 = new TabPage();
             gridViewMembers = new DataGridView();
-            name = new DataGridViewTextBoxColumn();
-            email = new DataGridViewTextBoxColumn();
-            phone = new DataGridViewTextBoxColumn();
-            address = new DataGridViewTextBoxColumn();
-            joindate = new DataGridViewTextBoxColumn();
-            editmem = new DataGridViewButtonColumn();
-            delmem = new DataGridViewButtonColumn();
             groupBoxMem = new GroupBox();
-            dTPM = new DateTimePicker();
-            btnClearm = new Button();
+            btnClearmem = new Button();
+            btnDelM = new Button();
+            btnUpdateM = new Button();
+            dTPMem = new DateTimePicker();
             btnSavem = new Button();
             lbJoin = new Label();
-            textBox2 = new TextBox();
+            txtAddmem = new TextBox();
             lbAdd = new Label();
-            textBox3 = new TextBox();
+            txtPhonemem = new TextBox();
             lbPhone = new Label();
-            textBox4 = new TextBox();
+            txtMailmem = new TextBox();
             lbEmail = new Label();
             lbName = new Label();
-            textBox5 = new TextBox();
+            txtNamemem = new TextBox();
             tabPage4 = new TabPage();
+            txtSearchLoans = new TextBox();
+            btnLoanEx = new Button();
+            comboLoan = new ComboBox();
             gridViewLoans = new DataGridView();
-            loanMemName = new DataGridViewTextBoxColumn();
-            bookloans = new DataGridViewTextBoxColumn();
-            borrow = new DataGridViewTextBoxColumn();
-            due = new DataGridViewTextBoxColumn();
-            returnD = new DataGridViewTextBoxColumn();
-            statusloans = new DataGridViewComboBoxColumn();
-            editloans = new DataGridViewButtonColumn();
-            deleteloans = new DataGridViewButtonColumn();
+            Loan_id = new DataGridViewTextBoxColumn();
+            member_name = new DataGridViewTextBoxColumn();
+            book_title = new DataGridViewTextBoxColumn();
+            staff_name = new DataGridViewTextBoxColumn();
+            borrow_date = new DataGridViewTextBoxColumn();
+            due_date = new DataGridViewTextBoxColumn();
+            return_date = new DataGridViewTextBoxColumn();
+            status = new DataGridViewComboBoxColumn();
             groupBoxLoans = new GroupBox();
+            lbstatL = new Label();
+            comboloanStat = new ComboBox();
+            btnDeleteL = new Button();
+            btnUpdateL = new Button();
+            comboBoxMemL = new ComboBox();
             comboBoxStaffL = new ComboBox();
-            dTPDue = new DateTimePicker();
             comboloanBook = new ComboBox();
             dTPBorrow = new DateTimePicker();
-            button1 = new Button();
-            button2 = new Button();
+            btnClearL = new Button();
+            btnSaveL = new Button();
             lbBorrow = new Label();
             lbloanBook = new Label();
             lbloanSN = new Label();
             lbloanMN = new Label();
-            txtloanMN = new TextBox();
             tabReservations = new TabPage();
             gridViewReservation = new DataGridView();
-            reserMemName = new DataGridViewTextBoxColumn();
-            bookreser = new DataGridViewTextBoxColumn();
-            reservationDate = new DataGridViewTextBoxColumn();
-            statusreservation = new DataGridViewComboBoxColumn();
-            editreservation = new DataGridViewButtonColumn();
-            deletereservation = new DataGridViewButtonColumn();
             groupBoxReser = new GroupBox();
+            btnDeleteR = new Button();
+            btnUpdateR = new Button();
+            comboBoxMemR = new ComboBox();
             comboBoxStaffR = new ComboBox();
             comboreserStatus = new ComboBox();
             dTPReserve = new DateTimePicker();
             comboreserBook = new ComboBox();
-            button3 = new Button();
-            button4 = new Button();
+            btnClearR = new Button();
+            btnSaveR = new Button();
             lbreserStatus = new Label();
             lbReserDate = new Label();
             lbreserBook = new Label();
             lbreserSN = new Label();
             lbreserMN = new Label();
-            txtreserMN = new TextBox();
             tabPage5 = new TabPage();
-            dataGridView1 = new DataGridView();
-            transacMemName = new DataGridViewTextBoxColumn();
-            transacStaffName = new DataGridViewTextBoxColumn();
-            TransacType = new DataGridViewTextBoxColumn();
-            amount = new DataGridViewTextBoxColumn();
-            transacdate = new DataGridViewTextBoxColumn();
-            transacEdit = new DataGridViewButtonColumn();
-            transacDelete = new DataGridViewButtonColumn();
+            dataGridViewTransaction = new DataGridView();
             groupBoxTransac = new GroupBox();
+            btdDeleteT = new Button();
+            btnUpdateT = new Button();
+            comboMemT = new ComboBox();
             comboBoxStaffT = new ComboBox();
             txtAmount = new TextBox();
             dTPTransac = new DateTimePicker();
             combotransac = new ComboBox();
-            button5 = new Button();
-            button6 = new Button();
+            btnClearT = new Button();
+            btnSaveT = new Button();
             lbAmout = new Label();
             lbTransacDate = new Label();
             lbTransacType = new Label();
             lbtranSN = new Label();
             lbtranMN = new Label();
-            textBox6 = new TextBox();
             tabPage6 = new TabPage();
             gridViewStaff = new DataGridView();
-            staffname = new DataGridViewTextBoxColumn();
-            staffemail = new DataGridViewTextBoxColumn();
-            staffphone = new DataGridViewTextBoxColumn();
-            role = new DataGridViewTextBoxColumn();
-            staffedit = new DataGridViewButtonColumn();
-            staffdelete = new DataGridViewButtonColumn();
             groupBoxStaff = new GroupBox();
+            btnStaffDel = new Button();
+            btnStaffUpdate = new Button();
             comboBoxRole = new ComboBox();
-            staffClear = new Button();
-            staffSave = new Button();
+            btnClearS = new Button();
+            btnSaveS = new Button();
             lbRole = new Label();
             txtStaffPhone = new TextBox();
             lbStaffPhone = new Label();
@@ -204,7 +189,7 @@
             ((System.ComponentModel.ISupportInitialize)gridViewReservation).BeginInit();
             groupBoxReser.SuspendLayout();
             tabPage5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewTransaction).BeginInit();
             groupBoxTransac.SuspendLayout();
             tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)gridViewStaff).BeginInit();
@@ -224,11 +209,13 @@
             tabs.Location = new Point(0, 0);
             tabs.Name = "tabs";
             tabs.SelectedIndex = 0;
-            tabs.Size = new Size(800, 561);
+            tabs.Size = new Size(800, 581);
             tabs.TabIndex = 0;
             // 
             // tabPage1
             // 
+            tabPage1.Controls.Add(btnLogout);
+            tabPage1.Controls.Add(btnRefresh);
             tabPage1.Controls.Add(panelReviews);
             tabPage1.Controls.Add(panelPopular);
             tabPage1.Controls.Add(panelOverdue);
@@ -239,11 +226,35 @@
             tabPage1.Location = new Point(4, 29);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(792, 528);
+            tabPage1.Size = new Size(792, 548);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Dashboard";
             tabPage1.UseVisualStyleBackColor = true;
             tabPage1.Click += tabPage1_Click;
+            // 
+            // btnLogout
+            // 
+            btnLogout.BackColor = Color.Plum;
+            btnLogout.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLogout.Location = new Point(660, 15);
+            btnLogout.Name = "btnLogout";
+            btnLogout.Size = new Size(94, 29);
+            btnLogout.TabIndex = 6;
+            btnLogout.Text = "Logout";
+            btnLogout.UseVisualStyleBackColor = false;
+            btnLogout.Click += btnLogout_Click;
+            // 
+            // btnRefresh
+            // 
+            btnRefresh.BackColor = Color.Plum;
+            btnRefresh.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRefresh.Location = new Point(560, 15);
+            btnRefresh.Name = "btnRefresh";
+            btnRefresh.Size = new Size(94, 29);
+            btnRefresh.TabIndex = 5;
+            btnRefresh.Text = "Refresh";
+            btnRefresh.UseVisualStyleBackColor = false;
+            btnRefresh.Click += btnRefresh_Click;
             // 
             // panelReviews
             // 
@@ -252,7 +263,7 @@
             panelReviews.Controls.Add(lbComment);
             panelReviews.Controls.Add(lbRate);
             panelReviews.Controls.Add(lbrevB);
-            panelReviews.Location = new Point(497, 250);
+            panelReviews.Location = new Point(492, 266);
             panelReviews.Name = "panelReviews";
             panelReviews.Size = new Size(262, 261);
             panelReviews.TabIndex = 4;
@@ -261,20 +272,20 @@
             // lbReviews
             // 
             lbReviews.AutoSize = true;
-            lbReviews.Font = new Font("Bookman Old Style", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbReviews.Location = new Point(82, 6);
+            lbReviews.Font = new Font("Bookman Old Style", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbReviews.Location = new Point(78, 6);
             lbReviews.Name = "lbReviews";
-            lbReviews.Size = new Size(93, 24);
+            lbReviews.Size = new Size(109, 28);
             lbReviews.TabIndex = 3;
             lbReviews.Text = "Reviews";
+            lbReviews.Click += lbReviews_Click;
             // 
             // lbComment
             // 
-            lbComment.AutoSize = true;
-            lbComment.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
-            lbComment.Location = new Point(33, 176);
+            lbComment.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbComment.Location = new Point(12, 153);
             lbComment.Name = "lbComment";
-            lbComment.Size = new Size(89, 23);
+            lbComment.Size = new Size(225, 96);
             lbComment.TabIndex = 2;
             lbComment.Text = "Comment";
             lbComment.Click += lbComment_Click;
@@ -282,21 +293,20 @@
             // lbRate
             // 
             lbRate.AutoSize = true;
-            lbRate.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
-            lbRate.Location = new Point(33, 129);
+            lbRate.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbRate.Location = new Point(12, 103);
             lbRate.Name = "lbRate";
-            lbRate.Size = new Size(63, 23);
+            lbRate.Size = new Size(74, 28);
             lbRate.TabIndex = 1;
             lbRate.Text = "Rating";
             lbRate.Click += lbRate_Click;
             // 
             // lbrevB
             // 
-            lbrevB.AutoSize = true;
-            lbrevB.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
-            lbrevB.Location = new Point(33, 75);
+            lbrevB.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbrevB.Location = new Point(12, 45);
             lbrevB.Name = "lbrevB";
-            lbrevB.Size = new Size(51, 23);
+            lbrevB.Size = new Size(225, 58);
             lbrevB.TabIndex = 0;
             lbrevB.Text = "Book";
             // 
@@ -305,7 +315,7 @@
             panelPopular.BackColor = Color.Thistle;
             panelPopular.Controls.Add(lbBookpop);
             panelPopular.Controls.Add(lbPopular);
-            panelPopular.Location = new Point(32, 341);
+            panelPopular.Location = new Point(27, 357);
             panelPopular.Name = "panelPopular";
             panelPopular.Size = new Size(453, 169);
             panelPopular.TabIndex = 3;
@@ -314,7 +324,7 @@
             // 
             lbBookpop.AutoSize = true;
             lbBookpop.Font = new Font("Bookman Old Style", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lbBookpop.Location = new Point(127, 94);
+            lbBookpop.Location = new Point(24, 93);
             lbBookpop.Name = "lbBookpop";
             lbBookpop.Size = new Size(177, 35);
             lbBookpop.TabIndex = 1;
@@ -337,7 +347,7 @@
             panelOverdue.Controls.Add(lbWeek);
             panelOverdue.Controls.Add(lbOvernum);
             panelOverdue.Controls.Add(lbOverB);
-            panelOverdue.Location = new Point(266, 183);
+            panelOverdue.Location = new Point(261, 199);
             panelOverdue.Name = "panelOverdue";
             panelOverdue.Size = new Size(219, 138);
             panelOverdue.TabIndex = 2;
@@ -356,7 +366,7 @@
             // 
             lbOvernum.AutoSize = true;
             lbOvernum.Font = new Font("Bookman Old Style", 19.2F, FontStyle.Bold);
-            lbOvernum.Location = new Point(46, 73);
+            lbOvernum.Location = new Point(42, 73);
             lbOvernum.Name = "lbOvernum";
             lbOvernum.Size = new Size(38, 38);
             lbOvernum.TabIndex = 1;
@@ -378,7 +388,7 @@
             panelLoaned.Controls.Add(lbToday);
             panelLoaned.Controls.Add(lbLoanednum);
             panelLoaned.Controls.Add(lbLoaned);
-            panelLoaned.Location = new Point(32, 183);
+            panelLoaned.Location = new Point(27, 199);
             panelLoaned.Name = "panelLoaned";
             panelLoaned.Size = new Size(219, 138);
             panelLoaned.TabIndex = 2;
@@ -402,6 +412,7 @@
             lbLoanednum.Size = new Size(59, 38);
             lbLoanednum.TabIndex = 0;
             lbLoanednum.Text = "15";
+            lbLoanednum.Click += lbLoanednum_Click;
             // 
             // lbLoaned
             // 
@@ -418,7 +429,7 @@
             panelAvail.BackColor = Color.Thistle;
             panelAvail.Controls.Add(lbAvailnum);
             panelAvail.Controls.Add(lbAvail);
-            panelAvail.Location = new Point(266, 30);
+            panelAvail.Location = new Point(261, 46);
             panelAvail.Name = "panelAvail";
             panelAvail.Size = new Size(219, 138);
             panelAvail.TabIndex = 2;
@@ -432,6 +443,7 @@
             lbAvailnum.Size = new Size(59, 38);
             lbAvailnum.TabIndex = 1;
             lbAvailnum.Text = "36";
+            lbAvailnum.Click += lbAvailnum_Click;
             // 
             // lbAvail
             // 
@@ -448,10 +460,11 @@
             panelTotal.BackColor = Color.Thistle;
             panelTotal.Controls.Add(Totalnum);
             panelTotal.Controls.Add(lbTotal);
-            panelTotal.Location = new Point(32, 30);
+            panelTotal.Location = new Point(27, 46);
             panelTotal.Name = "panelTotal";
             panelTotal.Size = new Size(219, 138);
             panelTotal.TabIndex = 1;
+            panelTotal.Paint += panelTotal_Paint;
             // 
             // Totalnum
             // 
@@ -473,103 +486,70 @@
             lbTotal.Size = new Size(187, 32);
             lbTotal.TabIndex = 0;
             lbTotal.Text = "Total Books";
+            lbTotal.Click += lbTotal_Click;
             // 
             // monthCalendar1
             // 
             monthCalendar1.Anchor = AnchorStyles.Right;
-            monthCalendar1.Location = new Point(497, 30);
+            monthCalendar1.Location = new Point(492, 56);
             monthCalendar1.Name = "monthCalendar1";
             monthCalendar1.TabIndex = 0;
             monthCalendar1.DateChanged += monthCalendar1_DateChanged;
             // 
             // tabPage2
             // 
+            tabPage2.Controls.Add(btnBackBook);
             tabPage2.Controls.Add(comboBox1);
             tabPage2.Controls.Add(gridViewBooks);
             tabPage2.Controls.Add(groupBoxBooks);
             tabPage2.Location = new Point(4, 29);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(792, 528);
+            tabPage2.Size = new Size(792, 548);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Books";
             tabPage2.UseVisualStyleBackColor = true;
             // 
+            // btnBackBook
+            // 
+            btnBackBook.BackColor = Color.Plum;
+            btnBackBook.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnBackBook.Location = new Point(194, 210);
+            btnBackBook.Name = "btnBackBook";
+            btnBackBook.Size = new Size(94, 29);
+            btnBackBook.TabIndex = 3;
+            btnBackBook.Text = "Book List";
+            btnBackBook.UseVisualStyleBackColor = false;
+            btnBackBook.Click += btnBackBook_Click;
+            // 
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Available books" });
             comboBox1.Location = new Point(24, 210);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(151, 28);
             comboBox1.TabIndex = 2;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged_2;
             // 
             // gridViewBooks
             // 
-            gridViewBooks.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             gridViewBooks.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            gridViewBooks.Columns.AddRange(new DataGridViewColumn[] { title, author, genre, yearpub, totalcop, availcop, edit, delete });
             gridViewBooks.GridColor = Color.Black;
             gridViewBooks.Location = new Point(24, 244);
             gridViewBooks.Name = "gridViewBooks";
+            gridViewBooks.ReadOnly = true;
             gridViewBooks.RowHeadersWidth = 51;
             gridViewBooks.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            gridViewBooks.Size = new Size(740, 262);
+            gridViewBooks.Size = new Size(740, 283);
             gridViewBooks.TabIndex = 1;
             gridViewBooks.CellContentClick += GridViewBooks_CellContentClick;
-            // 
-            // title
-            // 
-            title.HeaderText = "Title";
-            title.MinimumWidth = 6;
-            title.Name = "title";
-            // 
-            // author
-            // 
-            author.HeaderText = "Author";
-            author.MinimumWidth = 6;
-            author.Name = "author";
-            // 
-            // genre
-            // 
-            genre.HeaderText = "Genre";
-            genre.MinimumWidth = 6;
-            genre.Name = "genre";
-            // 
-            // yearpub
-            // 
-            yearpub.HeaderText = "Year Published";
-            yearpub.MinimumWidth = 6;
-            yearpub.Name = "yearpub";
-            // 
-            // totalcop
-            // 
-            totalcop.HeaderText = "Total Copies";
-            totalcop.MinimumWidth = 6;
-            totalcop.Name = "totalcop";
-            // 
-            // availcop
-            // 
-            availcop.HeaderText = "Available Copies";
-            availcop.MinimumWidth = 6;
-            availcop.Name = "availcop";
-            // 
-            // edit
-            // 
-            edit.HeaderText = "Edit";
-            edit.MinimumWidth = 6;
-            edit.Name = "edit";
-            // 
-            // delete
-            // 
-            delete.HeaderText = "Delete";
-            delete.MinimumWidth = 6;
-            delete.Name = "delete";
             // 
             // groupBoxBooks
             // 
             groupBoxBooks.BackColor = Color.Plum;
-            groupBoxBooks.Controls.Add(btnClear);
+            groupBoxBooks.Controls.Add(btnClearBook);
+            groupBoxBooks.Controls.Add(btnDelB);
+            groupBoxBooks.Controls.Add(btnEditB);
             groupBoxBooks.Controls.Add(btnSave);
             groupBoxBooks.Controls.Add(txtTotal);
             groupBoxBooks.Controls.Add(lbTC);
@@ -587,26 +567,51 @@
             groupBoxBooks.TabIndex = 0;
             groupBoxBooks.TabStop = false;
             groupBoxBooks.Text = "BookDetails";
+            groupBoxBooks.Enter += groupBoxBooks_Enter;
             // 
-            // btnClear
+            // btnClearBook
             // 
-            btnClear.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnClear.Location = new Point(362, 132);
-            btnClear.Name = "btnClear";
-            btnClear.Size = new Size(94, 29);
-            btnClear.TabIndex = 11;
-            btnClear.Text = "Clear";
-            btnClear.UseVisualStyleBackColor = true;
+            btnClearBook.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnClearBook.Location = new Point(507, 132);
+            btnClearBook.Name = "btnClearBook";
+            btnClearBook.Size = new Size(94, 29);
+            btnClearBook.TabIndex = 13;
+            btnClearBook.Text = "Clear";
+            btnClearBook.UseVisualStyleBackColor = true;
+            btnClearBook.Click += btnClearBook_Click;
+            // 
+            // btnDelB
+            // 
+            btnDelB.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnDelB.Location = new Point(371, 132);
+            btnDelB.Name = "btnDelB";
+            btnDelB.Size = new Size(94, 29);
+            btnDelB.TabIndex = 12;
+            btnDelB.Text = "Delete";
+            btnDelB.UseVisualStyleBackColor = true;
+            btnDelB.Click += btnDelB_Click;
+            // 
+            // btnEditB
+            // 
+            btnEditB.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnEditB.Location = new Point(235, 132);
+            btnEditB.Name = "btnEditB";
+            btnEditB.Size = new Size(94, 29);
+            btnEditB.TabIndex = 11;
+            btnEditB.Text = "Update";
+            btnEditB.UseVisualStyleBackColor = true;
+            btnEditB.Click += btnEditB_Click;
             // 
             // btnSave
             // 
             btnSave.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnSave.Location = new Point(236, 132);
+            btnSave.Location = new Point(97, 132);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(94, 29);
             btnSave.TabIndex = 10;
             btnSave.Text = "Save";
             btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += btnSave_Click;
             // 
             // txtTotal
             // 
@@ -631,6 +636,7 @@
             txtYP.Name = "txtYP";
             txtYP.Size = new Size(125, 27);
             txtYP.TabIndex = 7;
+            txtYP.TextChanged += txtYP_TextChanged;
             // 
             // lbYP
             // 
@@ -638,9 +644,9 @@
             lbYP.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbYP.Location = new Point(71, 83);
             lbYP.Name = "lbYP";
-            lbYP.Size = new Size(119, 20);
+            lbYP.Size = new Size(120, 20);
             lbYP.TabIndex = 6;
-            lbYP.Text = "Year Published: ";
+            lbYP.Text = "Published Year: ";
             // 
             // txtGenre
             // 
@@ -694,6 +700,7 @@
             txtTitle.Name = "txtTitle";
             txtTitle.Size = new Size(125, 27);
             txtTitle.TabIndex = 0;
+            txtTitle.TextChanged += txtTitle_TextChanged;
             // 
             // tabPage3
             // 
@@ -702,7 +709,7 @@
             tabPage3.Location = new Point(4, 29);
             tabPage3.Name = "tabPage3";
             tabPage3.Padding = new Padding(3);
-            tabPage3.Size = new Size(792, 528);
+            tabPage3.Size = new Size(792, 548);
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Members";
             tabPage3.UseVisualStyleBackColor = true;
@@ -710,74 +717,33 @@
             // 
             // gridViewMembers
             // 
-            gridViewMembers.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             gridViewMembers.BackgroundColor = Color.Thistle;
             gridViewMembers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            gridViewMembers.Columns.AddRange(new DataGridViewColumn[] { name, email, phone, address, joindate, editmem, delmem });
-            gridViewMembers.Location = new Point(22, 207);
+            gridViewMembers.Location = new Point(22, 217);
             gridViewMembers.Name = "gridViewMembers";
+            gridViewMembers.ReadOnly = true;
             gridViewMembers.RowHeadersWidth = 51;
             gridViewMembers.Size = new Size(739, 313);
             gridViewMembers.TabIndex = 2;
             gridViewMembers.CellContentClick += dataGridView1_CellContentClick;
             // 
-            // name
-            // 
-            name.HeaderText = "Name";
-            name.MinimumWidth = 6;
-            name.Name = "name";
-            // 
-            // email
-            // 
-            email.HeaderText = "Email";
-            email.MinimumWidth = 6;
-            email.Name = "email";
-            // 
-            // phone
-            // 
-            phone.HeaderText = "Phone#";
-            phone.MinimumWidth = 6;
-            phone.Name = "phone";
-            // 
-            // address
-            // 
-            address.HeaderText = "Address";
-            address.MinimumWidth = 6;
-            address.Name = "address";
-            // 
-            // joindate
-            // 
-            joindate.HeaderText = "Join Date";
-            joindate.MinimumWidth = 6;
-            joindate.Name = "joindate";
-            // 
-            // editmem
-            // 
-            editmem.HeaderText = "Edit";
-            editmem.MinimumWidth = 6;
-            editmem.Name = "editmem";
-            // 
-            // delmem
-            // 
-            delmem.HeaderText = "Delete";
-            delmem.MinimumWidth = 6;
-            delmem.Name = "delmem";
-            // 
             // groupBoxMem
             // 
             groupBoxMem.BackColor = Color.Plum;
-            groupBoxMem.Controls.Add(dTPM);
-            groupBoxMem.Controls.Add(btnClearm);
+            groupBoxMem.Controls.Add(btnClearmem);
+            groupBoxMem.Controls.Add(btnDelM);
+            groupBoxMem.Controls.Add(btnUpdateM);
+            groupBoxMem.Controls.Add(dTPMem);
             groupBoxMem.Controls.Add(btnSavem);
             groupBoxMem.Controls.Add(lbJoin);
-            groupBoxMem.Controls.Add(textBox2);
+            groupBoxMem.Controls.Add(txtAddmem);
             groupBoxMem.Controls.Add(lbAdd);
-            groupBoxMem.Controls.Add(textBox3);
+            groupBoxMem.Controls.Add(txtPhonemem);
             groupBoxMem.Controls.Add(lbPhone);
-            groupBoxMem.Controls.Add(textBox4);
+            groupBoxMem.Controls.Add(txtMailmem);
             groupBoxMem.Controls.Add(lbEmail);
             groupBoxMem.Controls.Add(lbName);
-            groupBoxMem.Controls.Add(textBox5);
+            groupBoxMem.Controls.Add(txtNamemem);
             groupBoxMem.Location = new Point(32, 17);
             groupBoxMem.Name = "groupBoxMem";
             groupBoxMem.Size = new Size(715, 167);
@@ -785,27 +751,50 @@
             groupBoxMem.TabStop = false;
             groupBoxMem.Text = "MemberDetails";
             // 
-            // dTPM
+            // btnClearmem
             // 
-            dTPM.Location = new Point(401, 80);
-            dTPM.Name = "dTPM";
-            dTPM.Size = new Size(250, 27);
-            dTPM.TabIndex = 12;
+            btnClearmem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnClearmem.Location = new Point(511, 132);
+            btnClearmem.Name = "btnClearmem";
+            btnClearmem.Size = new Size(94, 29);
+            btnClearmem.TabIndex = 15;
+            btnClearmem.Text = "Clear";
+            btnClearmem.UseVisualStyleBackColor = true;
+            btnClearmem.Click += btnClearmem_Click;
             // 
-            // btnClearm
+            // btnDelM
             // 
-            btnClearm.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnClearm.Location = new Point(356, 132);
-            btnClearm.Name = "btnClearm";
-            btnClearm.Size = new Size(94, 29);
-            btnClearm.TabIndex = 11;
-            btnClearm.Text = "Clear";
-            btnClearm.UseVisualStyleBackColor = true;
+            btnDelM.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnDelM.Location = new Point(386, 132);
+            btnDelM.Name = "btnDelM";
+            btnDelM.Size = new Size(94, 29);
+            btnDelM.TabIndex = 14;
+            btnDelM.Text = "Delete";
+            btnDelM.UseVisualStyleBackColor = true;
+            btnDelM.Click += btnDelM_Click;
+            // 
+            // btnUpdateM
+            // 
+            btnUpdateM.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnUpdateM.Location = new Point(255, 132);
+            btnUpdateM.Name = "btnUpdateM";
+            btnUpdateM.Size = new Size(94, 29);
+            btnUpdateM.TabIndex = 13;
+            btnUpdateM.Text = "Update";
+            btnUpdateM.UseVisualStyleBackColor = true;
+            btnUpdateM.Click += btnUpdateM_Click;
+            // 
+            // dTPMem
+            // 
+            dTPMem.Location = new Point(401, 80);
+            dTPMem.Name = "dTPMem";
+            dTPMem.Size = new Size(250, 27);
+            dTPMem.TabIndex = 12;
             // 
             // btnSavem
             // 
             btnSavem.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnSavem.Location = new Point(230, 132);
+            btnSavem.Location = new Point(125, 132);
             btnSavem.Name = "btnSavem";
             btnSavem.Size = new Size(94, 29);
             btnSavem.TabIndex = 10;
@@ -823,12 +812,13 @@
             lbJoin.TabIndex = 8;
             lbJoin.Text = "Join Date:";
             // 
-            // textBox2
+            // txtAddmem
             // 
-            textBox2.Location = new Point(134, 80);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
-            textBox2.TabIndex = 7;
+            txtAddmem.Location = new Point(134, 80);
+            txtAddmem.Name = "txtAddmem";
+            txtAddmem.Size = new Size(125, 27);
+            txtAddmem.TabIndex = 7;
+            txtAddmem.TextChanged += txtAddmem_TextChanged;
             // 
             // lbAdd
             // 
@@ -840,13 +830,13 @@
             lbAdd.TabIndex = 6;
             lbAdd.Text = "Address:";
             // 
-            // textBox3
+            // txtPhonemem
             // 
-            textBox3.Location = new Point(554, 36);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(125, 27);
-            textBox3.TabIndex = 5;
-            textBox3.TextChanged += textBox3_TextChanged;
+            txtPhonemem.Location = new Point(554, 36);
+            txtPhonemem.Name = "txtPhonemem";
+            txtPhonemem.Size = new Size(125, 27);
+            txtPhonemem.TabIndex = 5;
+            txtPhonemem.TextChanged += textBox3_TextChanged;
             // 
             // lbPhone
             // 
@@ -858,12 +848,13 @@
             lbPhone.TabIndex = 4;
             lbPhone.Text = "Phone#:";
             // 
-            // textBox4
+            // txtMailmem
             // 
-            textBox4.Location = new Point(312, 36);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(125, 27);
-            textBox4.TabIndex = 3;
+            txtMailmem.Location = new Point(312, 36);
+            txtMailmem.Name = "txtMailmem";
+            txtMailmem.Size = new Size(125, 27);
+            txtMailmem.TabIndex = 3;
+            txtMailmem.TextChanged += txtMailmem_TextChanged;
             // 
             // lbEmail
             // 
@@ -885,101 +876,159 @@
             lbName.TabIndex = 1;
             lbName.Text = "Name:";
             // 
-            // textBox5
+            // txtNamemem
             // 
-            textBox5.Location = new Point(96, 36);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(125, 27);
-            textBox5.TabIndex = 0;
+            txtNamemem.Location = new Point(96, 36);
+            txtNamemem.Name = "txtNamemem";
+            txtNamemem.Size = new Size(125, 27);
+            txtNamemem.TabIndex = 0;
+            txtNamemem.TextChanged += txtNamemem_TextChanged;
             // 
             // tabPage4
             // 
+            tabPage4.Controls.Add(txtSearchLoans);
+            tabPage4.Controls.Add(btnLoanEx);
+            tabPage4.Controls.Add(comboLoan);
             tabPage4.Controls.Add(gridViewLoans);
             tabPage4.Controls.Add(groupBoxLoans);
             tabPage4.Location = new Point(4, 29);
             tabPage4.Name = "tabPage4";
             tabPage4.Padding = new Padding(3);
-            tabPage4.Size = new Size(792, 528);
+            tabPage4.Size = new Size(792, 548);
             tabPage4.TabIndex = 3;
             tabPage4.Text = "Loans";
             tabPage4.UseVisualStyleBackColor = true;
             // 
+            // txtSearchLoans
+            // 
+            txtSearchLoans.Location = new Point(204, 207);
+            txtSearchLoans.Name = "txtSearchLoans";
+            txtSearchLoans.Size = new Size(125, 27);
+            txtSearchLoans.TabIndex = 6;
+            txtSearchLoans.TextChanged += txtSearchLoans_TextChanged;
+            // 
+            // btnLoanEx
+            // 
+            btnLoanEx.BackColor = Color.Plum;
+            btnLoanEx.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLoanEx.Location = new Point(642, 204);
+            btnLoanEx.Name = "btnLoanEx";
+            btnLoanEx.Size = new Size(123, 29);
+            btnLoanEx.TabIndex = 5;
+            btnLoanEx.Text = "Export to Excel";
+            btnLoanEx.UseVisualStyleBackColor = false;
+            btnLoanEx.Click += btnLoanEx_Click;
+            // 
+            // comboLoan
+            // 
+            comboLoan.FormattingEnabled = true;
+            comboLoan.Location = new Point(47, 205);
+            comboLoan.Name = "comboLoan";
+            comboLoan.Size = new Size(151, 28);
+            comboLoan.TabIndex = 4;
+            comboLoan.SelectedIndexChanged += comboLoan_SelectedIndexChanged_2;
+            // 
             // gridViewLoans
             // 
-            gridViewLoans.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             gridViewLoans.BackgroundColor = Color.Thistle;
             gridViewLoans.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            gridViewLoans.Columns.AddRange(new DataGridViewColumn[] { loanMemName, bookloans, borrow, due, returnD, statusloans, editloans, deleteloans });
-            gridViewLoans.Location = new Point(19, 223);
+            gridViewLoans.Columns.AddRange(new DataGridViewColumn[] { Loan_id, member_name, book_title, staff_name, borrow_date, due_date, return_date, status });
+            gridViewLoans.Location = new Point(30, 239);
             gridViewLoans.Name = "gridViewLoans";
             gridViewLoans.RowHeadersWidth = 51;
-            gridViewLoans.Size = new Size(754, 297);
+            gridViewLoans.Size = new Size(735, 301);
             gridViewLoans.TabIndex = 3;
             gridViewLoans.CellContentClick += gridViewLoans_CellContentClick;
             // 
-            // loanMemName
+            // Loan_id
             // 
-            loanMemName.HeaderText = "Member's Name";
-            loanMemName.MinimumWidth = 6;
-            loanMemName.Name = "loanMemName";
+            Loan_id.DataPropertyName = "loan_id";
+            Loan_id.HeaderText = "";
+            Loan_id.MinimumWidth = 6;
+            Loan_id.Name = "Loan_id";
+            Loan_id.Width = 125;
             // 
-            // bookloans
+            // member_name
             // 
-            bookloans.HeaderText = "Book";
-            bookloans.MinimumWidth = 6;
-            bookloans.Name = "bookloans";
+            member_name.DataPropertyName = "member_name";
+            member_name.HeaderText = "Member";
+            member_name.MinimumWidth = 6;
+            member_name.Name = "member_name";
+            member_name.ReadOnly = true;
+            member_name.Width = 97;
             // 
-            // borrow
+            // book_title
             // 
-            borrow.HeaderText = "Borrow Date";
-            borrow.MinimumWidth = 6;
-            borrow.Name = "borrow";
+            book_title.DataPropertyName = "book_title";
+            book_title.HeaderText = "Book";
+            book_title.MinimumWidth = 6;
+            book_title.Name = "book_title";
+            book_title.ReadOnly = true;
+            book_title.Width = 98;
             // 
-            // due
+            // staff_name
             // 
-            due.HeaderText = "Due Date";
-            due.MinimumWidth = 6;
-            due.Name = "due";
+            staff_name.DataPropertyName = "staff_name";
+            staff_name.HeaderText = "Staff";
+            staff_name.MinimumWidth = 6;
+            staff_name.Name = "staff_name";
+            staff_name.ReadOnly = true;
+            staff_name.Width = 97;
             // 
-            // returnD
+            // borrow_date
             // 
-            returnD.HeaderText = "Return Date";
-            returnD.MinimumWidth = 6;
-            returnD.Name = "returnD";
+            borrow_date.DataPropertyName = "borrow_date";
+            borrow_date.HeaderText = "Borrow Date";
+            borrow_date.MinimumWidth = 6;
+            borrow_date.Name = "borrow_date";
+            borrow_date.ReadOnly = true;
+            borrow_date.Width = 98;
             // 
-            // statusloans
+            // due_date
             // 
-            statusloans.HeaderText = "Status";
-            statusloans.MinimumWidth = 6;
-            statusloans.Name = "statusloans";
+            due_date.DataPropertyName = "due_date";
+            due_date.HeaderText = "Due Date";
+            due_date.MinimumWidth = 6;
+            due_date.Name = "due_date";
+            due_date.ReadOnly = true;
+            due_date.Width = 97;
             // 
-            // editloans
+            // return_date
             // 
-            editloans.HeaderText = "Edit";
-            editloans.MinimumWidth = 6;
-            editloans.Name = "editloans";
+            return_date.DataPropertyName = "return_date";
+            return_date.HeaderText = "Return Date";
+            return_date.MinimumWidth = 6;
+            return_date.Name = "return_date";
+            return_date.ReadOnly = true;
+            return_date.Width = 98;
             // 
-            // deleteloans
+            // status
             // 
-            deleteloans.HeaderText = "Delete";
-            deleteloans.MinimumWidth = 6;
-            deleteloans.Name = "deleteloans";
+            status.DataPropertyName = "status";
+            status.HeaderText = "Status";
+            status.Items.AddRange(new object[] { "borrowed, returned, overdue" });
+            status.MinimumWidth = 6;
+            status.Name = "status";
+            status.Width = 97;
             // 
             // groupBoxLoans
             // 
             groupBoxLoans.BackColor = Color.Plum;
+            groupBoxLoans.Controls.Add(lbstatL);
+            groupBoxLoans.Controls.Add(comboloanStat);
+            groupBoxLoans.Controls.Add(btnDeleteL);
+            groupBoxLoans.Controls.Add(btnUpdateL);
+            groupBoxLoans.Controls.Add(comboBoxMemL);
             groupBoxLoans.Controls.Add(comboBoxStaffL);
-            groupBoxLoans.Controls.Add(dTPDue);
             groupBoxLoans.Controls.Add(comboloanBook);
             groupBoxLoans.Controls.Add(dTPBorrow);
-            groupBoxLoans.Controls.Add(button1);
-            groupBoxLoans.Controls.Add(button2);
+            groupBoxLoans.Controls.Add(btnClearL);
+            groupBoxLoans.Controls.Add(btnSaveL);
             groupBoxLoans.Controls.Add(lbBorrow);
             groupBoxLoans.Controls.Add(lbloanBook);
             groupBoxLoans.Controls.Add(lbloanSN);
             groupBoxLoans.Controls.Add(lbloanMN);
-            groupBoxLoans.Controls.Add(txtloanMN);
-            groupBoxLoans.Location = new Point(85, 16);
+            groupBoxLoans.Location = new Point(91, 6);
             groupBoxLoans.Name = "groupBoxLoans";
             groupBoxLoans.Size = new Size(591, 180);
             groupBoxLoans.TabIndex = 2;
@@ -987,62 +1036,110 @@
             groupBoxLoans.Text = "LoanDetails";
             groupBoxLoans.Enter += groupBox2_Enter;
             // 
+            // lbstatL
+            // 
+            lbstatL.AutoSize = true;
+            lbstatL.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbstatL.Location = new Point(368, 79);
+            lbstatL.Name = "lbstatL";
+            lbstatL.Size = new Size(57, 20);
+            lbstatL.TabIndex = 21;
+            lbstatL.Text = "Status:";
+            lbstatL.Click += label1_Click_5;
+            // 
+            // comboloanStat
+            // 
+            comboloanStat.FormattingEnabled = true;
+            comboloanStat.Location = new Point(368, 101);
+            comboloanStat.Name = "comboloanStat";
+            comboloanStat.Size = new Size(151, 28);
+            comboloanStat.TabIndex = 20;
+            comboloanStat.SelectedIndexChanged += comboloanStat_SelectedIndexChanged;
+            // 
+            // btnDeleteL
+            // 
+            btnDeleteL.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnDeleteL.Location = new Point(293, 145);
+            btnDeleteL.Name = "btnDeleteL";
+            btnDeleteL.Size = new Size(94, 29);
+            btnDeleteL.TabIndex = 19;
+            btnDeleteL.Text = "Delete";
+            btnDeleteL.UseVisualStyleBackColor = true;
+            btnDeleteL.Click += btnDeleteL_Click;
+            // 
+            // btnUpdateL
+            // 
+            btnUpdateL.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnUpdateL.Location = new Point(175, 145);
+            btnUpdateL.Name = "btnUpdateL";
+            btnUpdateL.Size = new Size(94, 29);
+            btnUpdateL.TabIndex = 18;
+            btnUpdateL.Text = "Update";
+            btnUpdateL.UseVisualStyleBackColor = true;
+            btnUpdateL.Click += btnUpdateL_Click;
+            // 
+            // comboBoxMemL
+            // 
+            comboBoxMemL.FormattingEnabled = true;
+            comboBoxMemL.Location = new Point(16, 46);
+            comboBoxMemL.Name = "comboBoxMemL";
+            comboBoxMemL.Size = new Size(128, 28);
+            comboBoxMemL.TabIndex = 17;
+            comboBoxMemL.SelectedIndexChanged += comboBoxMemL_SelectedIndexChanged;
+            // 
             // comboBoxStaffL
             // 
             comboBoxStaffL.FormattingEnabled = true;
-            comboBoxStaffL.Location = new Point(219, 48);
+            comboBoxStaffL.Location = new Point(216, 48);
             comboBoxStaffL.Name = "comboBoxStaffL";
             comboBoxStaffL.Size = new Size(128, 28);
             comboBoxStaffL.TabIndex = 15;
-            // 
-            // dTPDue
-            // 
-            dTPDue.Location = new Point(19, 102);
-            dTPDue.Name = "dTPDue";
-            dTPDue.Size = new Size(250, 27);
-            dTPDue.TabIndex = 14;
+            comboBoxStaffL.SelectedIndexChanged += comboBoxStaffL_SelectedIndexChanged;
             // 
             // comboloanBook
             // 
             comboloanBook.FormattingEnabled = true;
-            comboloanBook.Location = new Point(421, 46);
+            comboloanBook.Location = new Point(418, 46);
             comboloanBook.Name = "comboloanBook";
             comboloanBook.Size = new Size(151, 28);
             comboloanBook.TabIndex = 13;
+            comboloanBook.SelectedIndexChanged += comboloanBook_SelectedIndexChanged_1;
             // 
             // dTPBorrow
             // 
-            dTPBorrow.Location = new Point(322, 102);
+            dTPBorrow.Location = new Point(53, 102);
             dTPBorrow.Name = "dTPBorrow";
             dTPBorrow.Size = new Size(250, 27);
             dTPBorrow.TabIndex = 12;
             dTPBorrow.ValueChanged += dTPBorrow_ValueChanged;
             // 
-            // button1
+            // btnClearL
             // 
-            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            button1.Location = new Point(301, 145);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 11;
-            button1.Text = "Clear";
-            button1.UseVisualStyleBackColor = true;
+            btnClearL.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnClearL.Location = new Point(411, 145);
+            btnClearL.Name = "btnClearL";
+            btnClearL.Size = new Size(94, 29);
+            btnClearL.TabIndex = 11;
+            btnClearL.Text = "Clear";
+            btnClearL.UseVisualStyleBackColor = true;
+            btnClearL.Click += btnClearL_Click;
             // 
-            // button2
+            // btnSaveL
             // 
-            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            button2.Location = new Point(175, 145);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 10;
-            button2.Text = "Save";
-            button2.UseVisualStyleBackColor = true;
+            btnSaveL.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnSaveL.Location = new Point(53, 145);
+            btnSaveL.Name = "btnSaveL";
+            btnSaveL.Size = new Size(94, 29);
+            btnSaveL.TabIndex = 10;
+            btnSaveL.Text = "Save";
+            btnSaveL.UseVisualStyleBackColor = true;
+            btnSaveL.Click += btnSaveL_Click;
             // 
             // lbBorrow
             // 
             lbBorrow.AutoSize = true;
             lbBorrow.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbBorrow.Location = new Point(322, 79);
+            lbBorrow.Location = new Point(53, 79);
             lbBorrow.Name = "lbBorrow";
             lbBorrow.Size = new Size(102, 20);
             lbBorrow.TabIndex = 8;
@@ -1053,7 +1150,7 @@
             // 
             lbloanBook.AutoSize = true;
             lbloanBook.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbloanBook.Location = new Point(421, 23);
+            lbloanBook.Location = new Point(418, 23);
             lbloanBook.Name = "lbloanBook";
             lbloanBook.Size = new Size(50, 20);
             lbloanBook.TabIndex = 4;
@@ -1063,7 +1160,7 @@
             // 
             lbloanSN.AutoSize = true;
             lbloanSN.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbloanSN.Location = new Point(219, 23);
+            lbloanSN.Location = new Point(216, 23);
             lbloanSN.Name = "lbloanSN";
             lbloanSN.Size = new Size(107, 20);
             lbloanSN.TabIndex = 2;
@@ -1073,19 +1170,12 @@
             // 
             lbloanMN.AutoSize = true;
             lbloanMN.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbloanMN.Location = new Point(19, 23);
+            lbloanMN.Location = new Point(16, 23);
             lbloanMN.Name = "lbloanMN";
             lbloanMN.Size = new Size(128, 20);
             lbloanMN.TabIndex = 1;
             lbloanMN.Text = "Member's Name:";
             lbloanMN.Click += label5_Click;
-            // 
-            // txtloanMN
-            // 
-            txtloanMN.Location = new Point(19, 47);
-            txtloanMN.Name = "txtloanMN";
-            txtloanMN.Size = new Size(125, 27);
-            txtloanMN.TabIndex = 0;
             // 
             // tabReservations
             // 
@@ -1094,7 +1184,7 @@
             tabReservations.Location = new Point(4, 29);
             tabReservations.Name = "tabReservations";
             tabReservations.Padding = new Padding(3);
-            tabReservations.Size = new Size(792, 528);
+            tabReservations.Size = new Size(792, 548);
             tabReservations.TabIndex = 4;
             tabReservations.Text = "Reservations";
             tabReservations.UseVisualStyleBackColor = true;
@@ -1105,71 +1195,67 @@
             gridViewReservation.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             gridViewReservation.BackgroundColor = Color.Thistle;
             gridViewReservation.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            gridViewReservation.Columns.AddRange(new DataGridViewColumn[] { reserMemName, bookreser, reservationDate, statusreservation, editreservation, deletereservation });
-            gridViewReservation.Location = new Point(18, 223);
+            gridViewReservation.Location = new Point(18, 233);
             gridViewReservation.Name = "gridViewReservation";
             gridViewReservation.RowHeadersWidth = 51;
             gridViewReservation.Size = new Size(755, 297);
             gridViewReservation.TabIndex = 4;
             gridViewReservation.CellContentClick += dataGridView1_CellContentClick_1;
             // 
-            // reserMemName
-            // 
-            reserMemName.HeaderText = "Member's Name";
-            reserMemName.MinimumWidth = 6;
-            reserMemName.Name = "reserMemName";
-            // 
-            // bookreser
-            // 
-            bookreser.HeaderText = "Book";
-            bookreser.MinimumWidth = 6;
-            bookreser.Name = "bookreser";
-            // 
-            // reservationDate
-            // 
-            reservationDate.HeaderText = "Reservation Date";
-            reservationDate.MinimumWidth = 6;
-            reservationDate.Name = "reservationDate";
-            // 
-            // statusreservation
-            // 
-            statusreservation.HeaderText = "Status";
-            statusreservation.MinimumWidth = 6;
-            statusreservation.Name = "statusreservation";
-            // 
-            // editreservation
-            // 
-            editreservation.HeaderText = "Edit";
-            editreservation.MinimumWidth = 6;
-            editreservation.Name = "editreservation";
-            // 
-            // deletereservation
-            // 
-            deletereservation.HeaderText = "Delete";
-            deletereservation.MinimumWidth = 6;
-            deletereservation.Name = "deletereservation";
-            // 
             // groupBoxReser
             // 
             groupBoxReser.BackColor = Color.Plum;
+            groupBoxReser.Controls.Add(btnDeleteR);
+            groupBoxReser.Controls.Add(btnUpdateR);
+            groupBoxReser.Controls.Add(comboBoxMemR);
             groupBoxReser.Controls.Add(comboBoxStaffR);
             groupBoxReser.Controls.Add(comboreserStatus);
             groupBoxReser.Controls.Add(dTPReserve);
             groupBoxReser.Controls.Add(comboreserBook);
-            groupBoxReser.Controls.Add(button3);
-            groupBoxReser.Controls.Add(button4);
+            groupBoxReser.Controls.Add(btnClearR);
+            groupBoxReser.Controls.Add(btnSaveR);
             groupBoxReser.Controls.Add(lbreserStatus);
             groupBoxReser.Controls.Add(lbReserDate);
             groupBoxReser.Controls.Add(lbreserBook);
             groupBoxReser.Controls.Add(lbreserSN);
             groupBoxReser.Controls.Add(lbreserMN);
-            groupBoxReser.Controls.Add(txtreserMN);
             groupBoxReser.Location = new Point(136, 19);
             groupBoxReser.Name = "groupBoxReser";
             groupBoxReser.Size = new Size(503, 180);
             groupBoxReser.TabIndex = 3;
             groupBoxReser.TabStop = false;
             groupBoxReser.Text = "ReservationDetails";
+            // 
+            // btnDeleteR
+            // 
+            btnDeleteR.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDeleteR.Location = new Point(263, 145);
+            btnDeleteR.Name = "btnDeleteR";
+            btnDeleteR.Size = new Size(94, 29);
+            btnDeleteR.TabIndex = 19;
+            btnDeleteR.Text = "Delete";
+            btnDeleteR.UseVisualStyleBackColor = true;
+            btnDeleteR.Click += btnDeleteR_Click;
+            // 
+            // btnUpdateR
+            // 
+            btnUpdateR.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnUpdateR.Location = new Point(148, 145);
+            btnUpdateR.Name = "btnUpdateR";
+            btnUpdateR.Size = new Size(94, 29);
+            btnUpdateR.TabIndex = 18;
+            btnUpdateR.Text = "Update";
+            btnUpdateR.UseVisualStyleBackColor = true;
+            btnUpdateR.Click += button1_Click;
+            // 
+            // comboBoxMemR
+            // 
+            comboBoxMemR.FormattingEnabled = true;
+            comboBoxMemR.Location = new Point(19, 45);
+            comboBoxMemR.Name = "comboBoxMemR";
+            comboBoxMemR.Size = new Size(128, 28);
+            comboBoxMemR.TabIndex = 17;
+            comboBoxMemR.SelectedIndexChanged += comboBoxMemR_SelectedIndexChanged;
             // 
             // comboBoxStaffR
             // 
@@ -1178,6 +1264,7 @@
             comboBoxStaffR.Name = "comboBoxStaffR";
             comboBoxStaffR.Size = new Size(128, 28);
             comboBoxStaffR.TabIndex = 16;
+            comboBoxStaffR.SelectedIndexChanged += comboBoxStaffR_SelectedIndexChanged;
             // 
             // comboreserStatus
             // 
@@ -1194,6 +1281,7 @@
             dTPReserve.Name = "dTPReserve";
             dTPReserve.Size = new Size(250, 27);
             dTPReserve.TabIndex = 14;
+            dTPReserve.ValueChanged += dTPReserve_ValueChanged;
             // 
             // comboreserBook
             // 
@@ -1202,27 +1290,29 @@
             comboreserBook.Name = "comboreserBook";
             comboreserBook.Size = new Size(151, 28);
             comboreserBook.TabIndex = 13;
-            comboreserBook.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            comboreserBook.SelectedIndexChanged += comboreserBook_SelectedIndexChanged;
             // 
-            // button3
+            // btnClearR
             // 
-            button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            button3.Location = new Point(246, 145);
-            button3.Name = "button3";
-            button3.Size = new Size(94, 29);
-            button3.TabIndex = 11;
-            button3.Text = "Clear";
-            button3.UseVisualStyleBackColor = true;
+            btnClearR.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnClearR.Location = new Point(378, 145);
+            btnClearR.Name = "btnClearR";
+            btnClearR.Size = new Size(94, 29);
+            btnClearR.TabIndex = 11;
+            btnClearR.Text = "Clear";
+            btnClearR.UseVisualStyleBackColor = true;
+            btnClearR.Click += btnClearR_Click;
             // 
-            // button4
+            // btnSaveR
             // 
-            button4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            button4.Location = new Point(120, 145);
-            button4.Name = "button4";
-            button4.Size = new Size(94, 29);
-            button4.TabIndex = 10;
-            button4.Text = "Save";
-            button4.UseVisualStyleBackColor = true;
+            btnSaveR.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnSaveR.Location = new Point(31, 145);
+            btnSaveR.Name = "btnSaveR";
+            btnSaveR.Size = new Size(94, 29);
+            btnSaveR.TabIndex = 10;
+            btnSaveR.Text = "Save";
+            btnSaveR.UseVisualStyleBackColor = true;
+            btnSaveR.Click += btnSaveR_Click;
             // 
             // lbreserStatus
             // 
@@ -1276,102 +1366,85 @@
             lbreserMN.Text = "Member's Name:";
             lbreserMN.Click += lbreserMN_Click;
             // 
-            // txtreserMN
-            // 
-            txtreserMN.Location = new Point(19, 47);
-            txtreserMN.Name = "txtreserMN";
-            txtreserMN.Size = new Size(125, 27);
-            txtreserMN.TabIndex = 0;
-            txtreserMN.TextChanged += txtreserMN_TextChanged;
-            // 
             // tabPage5
             // 
-            tabPage5.Controls.Add(dataGridView1);
+            tabPage5.Controls.Add(dataGridViewTransaction);
             tabPage5.Controls.Add(groupBoxTransac);
             tabPage5.Location = new Point(4, 29);
             tabPage5.Name = "tabPage5";
             tabPage5.Padding = new Padding(3);
-            tabPage5.Size = new Size(792, 528);
+            tabPage5.Size = new Size(792, 548);
             tabPage5.TabIndex = 5;
             tabPage5.Text = "Transactions";
             tabPage5.UseVisualStyleBackColor = true;
             tabPage5.Click += tabPage5_Click;
             // 
-            // dataGridView1
+            // dataGridViewTransaction
             // 
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridView1.BackgroundColor = Color.Thistle;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { transacMemName, transacStaffName, TransacType, amount, transacdate, transacEdit, transacDelete });
-            dataGridView1.Location = new Point(17, 223);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(758, 297);
-            dataGridView1.TabIndex = 5;
-            // 
-            // transacMemName
-            // 
-            transacMemName.HeaderText = "Member's Name";
-            transacMemName.MinimumWidth = 6;
-            transacMemName.Name = "transacMemName";
-            // 
-            // transacStaffName
-            // 
-            transacStaffName.HeaderText = "Staff's Name";
-            transacStaffName.MinimumWidth = 6;
-            transacStaffName.Name = "transacStaffName";
-            // 
-            // TransacType
-            // 
-            TransacType.HeaderText = "Transaction Type";
-            TransacType.MinimumWidth = 6;
-            TransacType.Name = "TransacType";
-            // 
-            // amount
-            // 
-            amount.HeaderText = "Amount";
-            amount.MinimumWidth = 6;
-            amount.Name = "amount";
-            // 
-            // transacdate
-            // 
-            transacdate.HeaderText = "Transaction Date";
-            transacdate.MinimumWidth = 6;
-            transacdate.Name = "transacdate";
-            // 
-            // transacEdit
-            // 
-            transacEdit.HeaderText = "Edit";
-            transacEdit.MinimumWidth = 6;
-            transacEdit.Name = "transacEdit";
-            // 
-            // transacDelete
-            // 
-            transacDelete.HeaderText = "Delete";
-            transacDelete.MinimumWidth = 6;
-            transacDelete.Name = "transacDelete";
+            dataGridViewTransaction.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewTransaction.BackgroundColor = Color.Thistle;
+            dataGridViewTransaction.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewTransaction.Location = new Point(17, 224);
+            dataGridViewTransaction.Name = "dataGridViewTransaction";
+            dataGridViewTransaction.RowHeadersWidth = 51;
+            dataGridViewTransaction.Size = new Size(758, 304);
+            dataGridViewTransaction.TabIndex = 5;
+            dataGridViewTransaction.CellContentClick += dataGridViewTransaction_CellContentClick;
             // 
             // groupBoxTransac
             // 
             groupBoxTransac.BackColor = Color.Plum;
+            groupBoxTransac.Controls.Add(btdDeleteT);
+            groupBoxTransac.Controls.Add(btnUpdateT);
+            groupBoxTransac.Controls.Add(comboMemT);
             groupBoxTransac.Controls.Add(comboBoxStaffT);
             groupBoxTransac.Controls.Add(txtAmount);
             groupBoxTransac.Controls.Add(dTPTransac);
             groupBoxTransac.Controls.Add(combotransac);
-            groupBoxTransac.Controls.Add(button5);
-            groupBoxTransac.Controls.Add(button6);
+            groupBoxTransac.Controls.Add(btnClearT);
+            groupBoxTransac.Controls.Add(btnSaveT);
             groupBoxTransac.Controls.Add(lbAmout);
             groupBoxTransac.Controls.Add(lbTransacDate);
             groupBoxTransac.Controls.Add(lbTransacType);
             groupBoxTransac.Controls.Add(lbtranSN);
             groupBoxTransac.Controls.Add(lbtranMN);
-            groupBoxTransac.Controls.Add(textBox6);
             groupBoxTransac.Location = new Point(147, 21);
             groupBoxTransac.Name = "groupBoxTransac";
             groupBoxTransac.Size = new Size(503, 180);
             groupBoxTransac.TabIndex = 4;
             groupBoxTransac.TabStop = false;
             groupBoxTransac.Text = "TransactionDetails";
+            // 
+            // btdDeleteT
+            // 
+            btdDeleteT.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btdDeleteT.Location = new Point(264, 145);
+            btdDeleteT.Name = "btdDeleteT";
+            btdDeleteT.Size = new Size(94, 29);
+            btdDeleteT.TabIndex = 19;
+            btdDeleteT.Text = "Delete";
+            btdDeleteT.UseVisualStyleBackColor = true;
+            btdDeleteT.Click += btdDeleteT_Click;
+            // 
+            // btnUpdateT
+            // 
+            btnUpdateT.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnUpdateT.Location = new Point(143, 145);
+            btnUpdateT.Name = "btnUpdateT";
+            btnUpdateT.Size = new Size(94, 29);
+            btnUpdateT.TabIndex = 18;
+            btnUpdateT.Text = "Update";
+            btnUpdateT.UseVisualStyleBackColor = true;
+            btnUpdateT.Click += btnUpdateT_Click;
+            // 
+            // comboMemT
+            // 
+            comboMemT.FormattingEnabled = true;
+            comboMemT.Location = new Point(19, 46);
+            comboMemT.Name = "comboMemT";
+            comboMemT.Size = new Size(125, 28);
+            comboMemT.TabIndex = 17;
+            comboMemT.SelectedIndexChanged += comboMemT_SelectedIndexChanged;
             // 
             // comboBoxStaffT
             // 
@@ -1380,6 +1453,7 @@
             comboBoxStaffT.Name = "comboBoxStaffT";
             comboBoxStaffT.Size = new Size(125, 28);
             comboBoxStaffT.TabIndex = 16;
+            comboBoxStaffT.SelectedIndexChanged += comboBoxStaffT_SelectedIndexChanged;
             // 
             // txtAmount
             // 
@@ -1402,26 +1476,29 @@
             combotransac.Name = "combotransac";
             combotransac.Size = new Size(151, 28);
             combotransac.TabIndex = 13;
+            combotransac.SelectedIndexChanged += combotransac_SelectedIndexChanged;
             // 
-            // button5
+            // btnClearT
             // 
-            button5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            button5.Location = new Point(258, 145);
-            button5.Name = "button5";
-            button5.Size = new Size(94, 29);
-            button5.TabIndex = 11;
-            button5.Text = "Clear";
-            button5.UseVisualStyleBackColor = true;
+            btnClearT.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnClearT.Location = new Point(384, 145);
+            btnClearT.Name = "btnClearT";
+            btnClearT.Size = new Size(94, 29);
+            btnClearT.TabIndex = 11;
+            btnClearT.Text = "Clear";
+            btnClearT.UseVisualStyleBackColor = true;
+            btnClearT.Click += btnClearT_Click;
             // 
-            // button6
+            // btnSaveT
             // 
-            button6.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            button6.Location = new Point(132, 145);
-            button6.Name = "button6";
-            button6.Size = new Size(94, 29);
-            button6.TabIndex = 10;
-            button6.Text = "Save";
-            button6.UseVisualStyleBackColor = true;
+            btnSaveT.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnSaveT.Location = new Point(23, 145);
+            btnSaveT.Name = "btnSaveT";
+            btnSaveT.Size = new Size(94, 29);
+            btnSaveT.TabIndex = 10;
+            btnSaveT.Text = "Save";
+            btnSaveT.UseVisualStyleBackColor = true;
+            btnSaveT.Click += btnSaveT_Click;
             // 
             // lbAmout
             // 
@@ -1474,13 +1551,6 @@
             lbtranMN.TabIndex = 1;
             lbtranMN.Text = "Member's Name:";
             // 
-            // textBox6
-            // 
-            textBox6.Location = new Point(19, 47);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(125, 27);
-            textBox6.TabIndex = 0;
-            // 
             // tabPage6
             // 
             tabPage6.Controls.Add(gridViewStaff);
@@ -1488,7 +1558,7 @@
             tabPage6.Location = new Point(4, 29);
             tabPage6.Name = "tabPage6";
             tabPage6.Padding = new Padding(3);
-            tabPage6.Size = new Size(792, 528);
+            tabPage6.Size = new Size(792, 548);
             tabPage6.TabIndex = 6;
             tabPage6.Text = "Staffs";
             tabPage6.UseVisualStyleBackColor = true;
@@ -1498,56 +1568,21 @@
             gridViewStaff.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             gridViewStaff.BackgroundColor = Color.Thistle;
             gridViewStaff.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            gridViewStaff.Columns.AddRange(new DataGridViewColumn[] { staffname, staffemail, staffphone, role, staffedit, staffdelete });
-            gridViewStaff.Location = new Point(20, 177);
+            gridViewStaff.Location = new Point(20, 192);
             gridViewStaff.Name = "gridViewStaff";
             gridViewStaff.RowHeadersWidth = 51;
-            gridViewStaff.Size = new Size(754, 345);
+            gridViewStaff.Size = new Size(754, 330);
             gridViewStaff.TabIndex = 2;
             gridViewStaff.CellContentClick += gridViewStaff_CellContentClick;
-            // 
-            // staffname
-            // 
-            staffname.HeaderText = "Name";
-            staffname.MinimumWidth = 6;
-            staffname.Name = "staffname";
-            // 
-            // staffemail
-            // 
-            staffemail.HeaderText = "Email";
-            staffemail.MinimumWidth = 6;
-            staffemail.Name = "staffemail";
-            // 
-            // staffphone
-            // 
-            staffphone.HeaderText = "Phone #";
-            staffphone.MinimumWidth = 6;
-            staffphone.Name = "staffphone";
-            // 
-            // role
-            // 
-            role.HeaderText = "Role";
-            role.MinimumWidth = 6;
-            role.Name = "role";
-            // 
-            // staffedit
-            // 
-            staffedit.HeaderText = "Edit";
-            staffedit.MinimumWidth = 6;
-            staffedit.Name = "staffedit";
-            // 
-            // staffdelete
-            // 
-            staffdelete.HeaderText = "Delete";
-            staffdelete.MinimumWidth = 6;
-            staffdelete.Name = "staffdelete";
             // 
             // groupBoxStaff
             // 
             groupBoxStaff.BackColor = Color.Plum;
+            groupBoxStaff.Controls.Add(btnStaffDel);
+            groupBoxStaff.Controls.Add(btnStaffUpdate);
             groupBoxStaff.Controls.Add(comboBoxRole);
-            groupBoxStaff.Controls.Add(staffClear);
-            groupBoxStaff.Controls.Add(staffSave);
+            groupBoxStaff.Controls.Add(btnClearS);
+            groupBoxStaff.Controls.Add(btnSaveS);
             groupBoxStaff.Controls.Add(lbRole);
             groupBoxStaff.Controls.Add(txtStaffPhone);
             groupBoxStaff.Controls.Add(lbStaffPhone);
@@ -1563,6 +1598,28 @@
             groupBoxStaff.Text = "StaffDetails";
             groupBoxStaff.Enter += groupBox5_Enter;
             // 
+            // btnStaffDel
+            // 
+            btnStaffDel.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnStaffDel.Location = new Point(405, 82);
+            btnStaffDel.Name = "btnStaffDel";
+            btnStaffDel.Size = new Size(94, 29);
+            btnStaffDel.TabIndex = 14;
+            btnStaffDel.Text = "Delete";
+            btnStaffDel.UseVisualStyleBackColor = true;
+            btnStaffDel.Click += btnStaffDel_Click;
+            // 
+            // btnStaffUpdate
+            // 
+            btnStaffUpdate.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnStaffUpdate.Location = new Point(255, 82);
+            btnStaffUpdate.Name = "btnStaffUpdate";
+            btnStaffUpdate.Size = new Size(94, 29);
+            btnStaffUpdate.TabIndex = 13;
+            btnStaffUpdate.Text = "Update";
+            btnStaffUpdate.UseVisualStyleBackColor = true;
+            btnStaffUpdate.Click += btnStaffUpdate_Click;
+            // 
             // comboBoxRole
             // 
             comboBoxRole.FormattingEnabled = true;
@@ -1570,26 +1627,29 @@
             comboBoxRole.Name = "comboBoxRole";
             comboBoxRole.Size = new Size(105, 28);
             comboBoxRole.TabIndex = 12;
+            comboBoxRole.SelectedIndexChanged += comboBoxRole_SelectedIndexChanged;
             // 
-            // staffClear
+            // btnClearS
             // 
-            staffClear.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            staffClear.Location = new Point(392, 82);
-            staffClear.Name = "staffClear";
-            staffClear.Size = new Size(94, 29);
-            staffClear.TabIndex = 11;
-            staffClear.Text = "Clear";
-            staffClear.UseVisualStyleBackColor = true;
+            btnClearS.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnClearS.Location = new Point(555, 82);
+            btnClearS.Name = "btnClearS";
+            btnClearS.Size = new Size(94, 29);
+            btnClearS.TabIndex = 11;
+            btnClearS.Text = "Clear";
+            btnClearS.UseVisualStyleBackColor = true;
+            btnClearS.Click += btnClearS_Click;
             // 
-            // staffSave
+            // btnSaveS
             // 
-            staffSave.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            staffSave.Location = new Point(266, 82);
-            staffSave.Name = "staffSave";
-            staffSave.Size = new Size(94, 29);
-            staffSave.TabIndex = 10;
-            staffSave.Text = "Save";
-            staffSave.UseVisualStyleBackColor = true;
+            btnSaveS.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnSaveS.Location = new Point(117, 82);
+            btnSaveS.Name = "btnSaveS";
+            btnSaveS.Size = new Size(94, 29);
+            btnSaveS.TabIndex = 10;
+            btnSaveS.Text = "Save";
+            btnSaveS.UseVisualStyleBackColor = true;
+            btnSaveS.Click += btnSaveS_Click;
             // 
             // lbRole
             // 
@@ -1654,14 +1714,16 @@
             txtStaffName.Name = "txtStaffName";
             txtStaffName.Size = new Size(105, 27);
             txtStaffName.TabIndex = 0;
+            txtStaffName.TextChanged += txtStaffName_TextChanged;
             // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
-            ClientSize = new Size(800, 561);
+            ClientSize = new Size(800, 581);
             Controls.Add(tabs);
+            MaximizeBox = false;
             Name = "Main";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "LibManagementSys";
@@ -1689,6 +1751,7 @@
             groupBoxMem.ResumeLayout(false);
             groupBoxMem.PerformLayout();
             tabPage4.ResumeLayout(false);
+            tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)gridViewLoans).EndInit();
             groupBoxLoans.ResumeLayout(false);
             groupBoxLoans.PerformLayout();
@@ -1697,7 +1760,7 @@
             groupBoxReser.ResumeLayout(false);
             groupBoxReser.PerformLayout();
             tabPage5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewTransaction).EndInit();
             groupBoxTransac.ResumeLayout(false);
             groupBoxTransac.PerformLayout();
             tabPage6.ResumeLayout(false);
@@ -1725,106 +1788,62 @@
         private Label lbTC;
         private TextBox txtYP;
         private DataGridView gridViewBooks;
-        private DataGridViewTextBoxColumn title;
-        private DataGridViewTextBoxColumn author;
-        private DataGridViewTextBoxColumn genre;
-        private DataGridViewTextBoxColumn yearpub;
-        private DataGridViewTextBoxColumn totalcop;
-        private DataGridViewTextBoxColumn availcop;
-        private DataGridViewButtonColumn edit;
-        private DataGridViewButtonColumn delete;
-        private Button btnClear;
         private TabPage tabPage3;
         private GroupBox groupBoxMem;
-        private DateTimePicker dTPM;
-        private Button btnClearm;
+        private DateTimePicker dTPMem;
         private Button btnSavem;
         private Label lbJoin;
-        private TextBox textBox2;
+        private TextBox txtAddmem;
         private Label lbAdd;
-        private TextBox textBox3;
+        private TextBox txtPhonemem;
         private Label lbPhone;
-        private TextBox textBox4;
+        private TextBox txtMailmem;
         private Label lbEmail;
         private Label lbName;
-        private TextBox textBox5;
+        private TextBox txtNamemem;
         private DataGridView gridViewMembers;
-        private DataGridViewTextBoxColumn name;
-        private DataGridViewTextBoxColumn email;
-        private DataGridViewTextBoxColumn phone;
-        private DataGridViewTextBoxColumn address;
-        private DataGridViewTextBoxColumn joindate;
-        private DataGridViewButtonColumn editmem;
-        private DataGridViewButtonColumn delmem;
         private TabPage tabPage4;
         private GroupBox groupBoxLoans;
         private DateTimePicker dTPBorrow;
-        private Button button1;
-        private Button button2;
+        private Button btnClearL;
+        private Button btnSaveL;
         private Label lbBorrow;
 
-        public Label lbDue { get; private set; }
 
         private Label lbloanBook;
         private Label lbloanSN;
         private Label lbloanMN;
-        private TextBox txtloanMN;
         private ComboBox comboloanBook;
-        private DateTimePicker dTPDue;
-        private DataGridView gridViewLoans;
         private TabPage tabReservations;
         private TabPage tabPage5;
         private TabPage tabPage6;
         private GroupBox groupBoxReser;
         private DateTimePicker dTPReserve;
         private ComboBox comboreserBook;
-        private Button button3;
-        private Button button4;
+        private Button btnClearR;
+        private Button btnSaveR;
         private Label lbreserStatus;
         private Label lbReserDate;
         private Label lbreserBook;
         private Label lbreserSN;
         private Label lbreserMN;
-        private TextBox txtreserMN;
         private ComboBox comboreserStatus;
         private DataGridView gridViewReservation;
-        private DataGridViewTextBoxColumn loanMemName;
-        private DataGridViewTextBoxColumn bookloans;
-        private DataGridViewTextBoxColumn borrow;
-        private DataGridViewTextBoxColumn due;
-        private DataGridViewTextBoxColumn returnD;
-        private DataGridViewComboBoxColumn statusloans;
-        private DataGridViewButtonColumn editloans;
-        private DataGridViewButtonColumn deleteloans;
-        private DataGridViewTextBoxColumn reserMemName;
-        private DataGridViewTextBoxColumn bookreser;
-        private DataGridViewTextBoxColumn reservationDate;
-        private DataGridViewComboBoxColumn statusreservation;
-        private DataGridViewButtonColumn editreservation;
-        private DataGridViewButtonColumn deletereservation;
         private GroupBox groupBoxTransac;
         private DateTimePicker dTPTransac;
         private ComboBox combotransac;
-        private Button button5;
-        private Button button6;
+        private Button btnClearT;
+        private Button btnSaveT;
         private Label lbAmout;
         private Label lbTransacDate;
         private Label lbTransacType;
         private Label lbtranSN;
         private Label lbtranMN;
-        private TextBox textBox6;
-        private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn transacMemName;
-        private DataGridViewTextBoxColumn transacStaffName;
-        private DataGridViewTextBoxColumn TransacType;
-        private DataGridViewTextBoxColumn amount;
-        private DataGridViewTextBoxColumn transacdate;
-        private DataGridViewButtonColumn transacEdit;
-        private DataGridViewButtonColumn transacDelete;
+        private DataGridView dataGridViewTransaction;
         private TextBox txtAmount;
         private GroupBox groupBoxStaff;
-        private Button staffClear;
-        private Button staffSave;
+        private Button btnClearS;
+        private Button btnSaveS;
         private TextBox textBox7;
         private Label lbRole;
         private TextBox txtStaffPhone;
@@ -1837,12 +1856,6 @@
         private Label lbStaffName;
         private TextBox txtStaffName;
         private DataGridView gridViewStaff;
-        private DataGridViewTextBoxColumn staffname;
-        private DataGridViewTextBoxColumn staffemail;
-        private DataGridViewTextBoxColumn staffphone;
-        private DataGridViewTextBoxColumn role;
-        private DataGridViewButtonColumn staffedit;
-        private DataGridViewButtonColumn staffdelete;
         private ComboBox comboBoxRole;
         private ComboBox comboBoxStaffL;
         private ComboBox comboBoxStaffR;
@@ -1871,5 +1884,39 @@
         private Label lbrevB;
         private Label lbReviews;
         private ComboBox comboBox1;
+        private Button btnDelB;
+        private Button btnEditB;
+        private Button btnBackBook;
+        private Button btnDelM;
+        private Button btnUpdateM;
+        private Button btnClearmem;
+        private Button btnClearBook;
+        private ComboBox comboBoxMemL;
+        private Button btnUpdateL;
+        private Button btnDeleteL;
+        private DataGridView gridViewLoans;
+        private DataGridViewTextBoxColumn Loan_id;
+        private DataGridViewTextBoxColumn member_name;
+        private DataGridViewTextBoxColumn book_title;
+        private DataGridViewTextBoxColumn staff_name;
+        private DataGridViewTextBoxColumn borrow_date;
+        private DataGridViewTextBoxColumn due_date;
+        private DataGridViewTextBoxColumn return_date;
+        private DataGridViewComboBoxColumn status;
+        private ComboBox comboloanStat;
+        private Label lbstatL;
+        private ComboBox comboBoxMemR;
+        private Button btnDeleteR;
+        private Button btnUpdateR;
+        private Button btnUpdateT;
+        private ComboBox comboMemT;
+        private Button btdDeleteT;
+        private Button btnStaffDel;
+        private Button btnStaffUpdate;
+        private Button btnLogout;
+        private Button btnRefresh;
+        private ComboBox comboLoan;
+        private Button btnLoanEx;
+        private TextBox txtSearchLoans;
     }
 }

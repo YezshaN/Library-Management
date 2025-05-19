@@ -33,6 +33,7 @@
             btnLogin = new Button();
             txtPass = new TextBox();
             txtUN = new TextBox();
+            btnForgot = new Button();
             SuspendLayout();
             // 
             // lbUsername
@@ -57,14 +58,15 @@
             // 
             // btnLogin
             // 
-            btnLogin.BackColor = Color.Thistle;
+            btnLogin.BackColor = Color.Plum;
             btnLogin.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnLogin.Location = new Point(176, 167);
+            btnLogin.Location = new Point(82, 165);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(108, 39);
             btnLogin.TabIndex = 2;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = false;
+            btnLogin.Click += btnLogin_Click;
             // 
             // txtPass
             // 
@@ -79,12 +81,27 @@
             txtUN.Name = "txtUN";
             txtUN.Size = new Size(231, 27);
             txtUN.TabIndex = 5;
+            txtUN.TextChanged += txtUN_TextChanged;
+            // 
+            // btnForgot
+            // 
+            btnForgot.BackColor = Color.Plum;
+            btnForgot.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnForgot.Location = new Point(213, 165);
+            btnForgot.Name = "btnForgot";
+            btnForgot.Size = new Size(147, 39);
+            btnForgot.TabIndex = 6;
+            btnForgot.Text = "Forgot Password";
+            btnForgot.UseVisualStyleBackColor = false;
+            btnForgot.Click += btnForgot_Click;
             // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Thistle;
             ClientSize = new Size(452, 244);
+            Controls.Add(btnForgot);
             Controls.Add(txtUN);
             Controls.Add(txtPass);
             Controls.Add(btnLogin);
@@ -94,6 +111,7 @@
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
+            Load += Login_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -105,5 +123,6 @@
         private Button btnLogin;
         private TextBox txtPass;
         private TextBox txtUN;
+        private Button btnForgot;
     }
 }

@@ -30,14 +30,15 @@
         {
             tabUserManager = new TabControl();
             tabAdd = new TabPage();
+            txtAddID = new TextBox();
+            lbAddID = new Label();
             btnUseradd = new Button();
             txtAddpass = new TextBox();
-            txtAddmail = new TextBox();
             txtAddUN = new TextBox();
             lbAddpass = new Label();
-            lbAddmail = new Label();
             lbAddUN = new Label();
             tabProfile = new TabPage();
+            btnSearch = new Button();
             txtSearch = new TextBox();
             panelUP = new Panel();
             btnUpdate = new Button();
@@ -47,16 +48,19 @@
             lbUDname = new Label();
             lbUDpass = new Label();
             lbUDmail = new Label();
-            lbSearch = new Label();
             tabDelete = new TabPage();
             btnDelUs = new Button();
             txtDelUs = new TextBox();
             lbDelUs = new Label();
+            tabPageEx = new TabPage();
+            btnLogoutUser = new Button();
+            label1 = new Label();
             tabUserManager.SuspendLayout();
             tabAdd.SuspendLayout();
             tabProfile.SuspendLayout();
             panelUP.SuspendLayout();
             tabDelete.SuspendLayout();
+            tabPageEx.SuspendLayout();
             SuspendLayout();
             // 
             // tabUserManager
@@ -65,6 +69,7 @@
             tabUserManager.Controls.Add(tabAdd);
             tabUserManager.Controls.Add(tabProfile);
             tabUserManager.Controls.Add(tabDelete);
+            tabUserManager.Controls.Add(tabPageEx);
             tabUserManager.Location = new Point(-2, 1);
             tabUserManager.Name = "tabUserManager";
             tabUserManager.SelectedIndex = 0;
@@ -74,12 +79,12 @@
             // tabAdd
             // 
             tabAdd.BackColor = Color.Thistle;
+            tabAdd.Controls.Add(txtAddID);
+            tabAdd.Controls.Add(lbAddID);
             tabAdd.Controls.Add(btnUseradd);
             tabAdd.Controls.Add(txtAddpass);
-            tabAdd.Controls.Add(txtAddmail);
             tabAdd.Controls.Add(txtAddUN);
             tabAdd.Controls.Add(lbAddpass);
-            tabAdd.Controls.Add(lbAddmail);
             tabAdd.Controls.Add(lbAddUN);
             tabAdd.Location = new Point(4, 29);
             tabAdd.Name = "tabAdd";
@@ -87,6 +92,25 @@
             tabAdd.Size = new Size(505, 312);
             tabAdd.TabIndex = 0;
             tabAdd.Text = "Add User";
+            // 
+            // txtAddID
+            // 
+            txtAddID.Location = new Point(184, 40);
+            txtAddID.Name = "txtAddID";
+            txtAddID.Size = new Size(244, 27);
+            txtAddID.TabIndex = 8;
+            txtAddID.TextChanged += textBox1_TextChanged;
+            // 
+            // lbAddID
+            // 
+            lbAddID.AutoSize = true;
+            lbAddID.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbAddID.Location = new Point(58, 40);
+            lbAddID.Name = "lbAddID";
+            lbAddID.Size = new Size(73, 23);
+            lbAddID.TabIndex = 7;
+            lbAddID.Text = "Staff ID";
+            lbAddID.Click += label1_Click;
             // 
             // btnUseradd
             // 
@@ -98,6 +122,7 @@
             btnUseradd.TabIndex = 6;
             btnUseradd.Text = "Add User";
             btnUseradd.UseVisualStyleBackColor = false;
+            btnUseradd.Click += btnUseradd_Click;
             // 
             // txtAddpass
             // 
@@ -105,17 +130,11 @@
             txtAddpass.Name = "txtAddpass";
             txtAddpass.Size = new Size(244, 27);
             txtAddpass.TabIndex = 5;
-            // 
-            // txtAddmail
-            // 
-            txtAddmail.Location = new Point(184, 93);
-            txtAddmail.Name = "txtAddmail";
-            txtAddmail.Size = new Size(244, 27);
-            txtAddmail.TabIndex = 4;
+            txtAddpass.TextChanged += txtAddpass_TextChanged;
             // 
             // txtAddUN
             // 
-            txtAddUN.Location = new Point(184, 38);
+            txtAddUN.Location = new Point(184, 92);
             txtAddUN.Name = "txtAddUN";
             txtAddUN.Size = new Size(244, 27);
             txtAddUN.TabIndex = 3;
@@ -131,21 +150,11 @@
             lbAddpass.TabIndex = 2;
             lbAddpass.Text = "Password:";
             // 
-            // lbAddmail
-            // 
-            lbAddmail.AutoSize = true;
-            lbAddmail.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
-            lbAddmail.Location = new Point(58, 97);
-            lbAddmail.Name = "lbAddmail";
-            lbAddmail.Size = new Size(59, 23);
-            lbAddmail.TabIndex = 1;
-            lbAddmail.Text = "Email:";
-            // 
             // lbAddUN
             // 
             lbAddUN.AutoSize = true;
             lbAddUN.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
-            lbAddUN.Location = new Point(58, 38);
+            lbAddUN.Location = new Point(58, 96);
             lbAddUN.Name = "lbAddUN";
             lbAddUN.Size = new Size(94, 23);
             lbAddUN.TabIndex = 0;
@@ -155,15 +164,27 @@
             // 
             tabProfile.BackColor = Color.Thistle;
             tabProfile.BorderStyle = BorderStyle.FixedSingle;
+            tabProfile.Controls.Add(btnSearch);
             tabProfile.Controls.Add(txtSearch);
             tabProfile.Controls.Add(panelUP);
-            tabProfile.Controls.Add(lbSearch);
             tabProfile.Location = new Point(4, 29);
             tabProfile.Name = "tabProfile";
             tabProfile.Padding = new Padding(3);
             tabProfile.Size = new Size(505, 312);
             tabProfile.TabIndex = 1;
             tabProfile.Text = "Update User Profile";
+            // 
+            // btnSearch
+            // 
+            btnSearch.BackColor = Color.Plum;
+            btnSearch.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSearch.Location = new Point(30, 23);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Size = new Size(156, 37);
+            btnSearch.TabIndex = 6;
+            btnSearch.Text = "Search Username";
+            btnSearch.UseVisualStyleBackColor = false;
+            btnSearch.Click += btnSearch_Click;
             // 
             // txtSearch
             // 
@@ -200,6 +221,7 @@
             btnUpdate.TabIndex = 7;
             btnUpdate.Text = "Update Account Profile";
             btnUpdate.UseVisualStyleBackColor = false;
+            btnUpdate.Click += btnUpdate_Click_1;
             // 
             // txtUDpass
             // 
@@ -255,16 +277,6 @@
             lbUDmail.Text = "Email:";
             lbUDmail.Click += lbUPmail_Click;
             // 
-            // lbSearch
-            // 
-            lbSearch.AutoSize = true;
-            lbSearch.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
-            lbSearch.Location = new Point(30, 28);
-            lbSearch.Name = "lbSearch";
-            lbSearch.Size = new Size(177, 23);
-            lbSearch.TabIndex = 0;
-            lbSearch.Text = "Search by Username:";
-            // 
             // tabDelete
             // 
             tabDelete.BackColor = Color.Thistle;
@@ -307,6 +319,40 @@
             lbDelUs.TabIndex = 0;
             lbDelUs.Text = "Search by Username:";
             // 
+            // tabPageEx
+            // 
+            tabPageEx.BackColor = Color.Thistle;
+            tabPageEx.Controls.Add(btnLogoutUser);
+            tabPageEx.Controls.Add(label1);
+            tabPageEx.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            tabPageEx.Location = new Point(4, 29);
+            tabPageEx.Name = "tabPageEx";
+            tabPageEx.Padding = new Padding(3);
+            tabPageEx.Size = new Size(505, 312);
+            tabPageEx.TabIndex = 3;
+            tabPageEx.Text = "Logout";
+            // 
+            // btnLogoutUser
+            // 
+            btnLogoutUser.BackColor = Color.Plum;
+            btnLogoutUser.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLogoutUser.Location = new Point(176, 132);
+            btnLogoutUser.Name = "btnLogoutUser";
+            btnLogoutUser.Size = new Size(126, 52);
+            btnLogoutUser.TabIndex = 10;
+            btnLogoutUser.Text = "Log out";
+            btnLogoutUser.UseVisualStyleBackColor = false;
+            btnLogoutUser.Click += btnLogoutUser_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(74, 46);
+            label1.Name = "label1";
+            label1.Size = new Size(355, 28);
+            label1.TabIndex = 0;
+            label1.Text = "Are you sure you want to Log out?";
+            // 
             // User
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -314,7 +360,9 @@
             ClientSize = new Size(511, 347);
             Controls.Add(tabUserManager);
             Name = "User";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "User";
+            Load += User_Load;
             tabUserManager.ResumeLayout(false);
             tabAdd.ResumeLayout(false);
             tabAdd.PerformLayout();
@@ -324,6 +372,8 @@
             panelUP.PerformLayout();
             tabDelete.ResumeLayout(false);
             tabDelete.PerformLayout();
+            tabPageEx.ResumeLayout(false);
+            tabPageEx.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -332,17 +382,14 @@
         private TabControl tabUserManager;
         private TabPage tabAdd;
         private Label lbAddpass;
-        private Label lbAddmail;
         private Label lbAddUN;
         private TabPage tabProfile;
         private TextBox txtAddpass;
-        private TextBox txtAddmail;
         private TextBox txtAddUN;
         private Button btnUseradd;
         private Label lbUDpass;
         private Label lbUDmail;
         private Label lbUDname;
-        private Label lbSearch;
         private Panel panelUP;
         private TextBox txtSearch;
         private TextBox txtUDpass;
@@ -353,5 +400,11 @@
         private Button btnDelUs;
         private TextBox txtDelUs;
         private Label lbDelUs;
+        private Label lbAddID;
+        private TextBox txtAddID;
+        private Button btnSearch;
+        private TabPage tabPageEx;
+        private Label label1;
+        private Button btnLogoutUser;
     }
 }
